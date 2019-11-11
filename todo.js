@@ -115,7 +115,7 @@ list.addEventListener("click", function(event) {
 
   if (elementJob == "complete") {
     completeTodo(element);
-  } else if (elementJob == "removed") {
+  } else if (elementJob == "delete") {
     removeTodo(element);
   }
   localStorage.setItem(input.value, JSON.stringify(LIST));
