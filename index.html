@@ -23,11 +23,12 @@
                             </div>
                             <div class="content">
                                 <ul id="list">
+                                    <!--  
                                     <li class="item">
                                         <i class="fa fa-circle-thin co" job="complete" id="0"></i>
                                         <p class="text">Drink Coffee</p>
                                         <i class="fa fa-trash-o de" job="delete" id="0"></i>
-                                    </li>
+                                    </li> -->
                                     <li class="item">
                                         <i class="fa fa-check-circle co" job="complete" id="0"></i>
                                         <p class="text lineThrough">Read a Book</p>
@@ -36,8 +37,8 @@
                                 </ul>
                             </div>
                             <div class="add-to-do">
-                                <i class="fa fa-plus-circle"></i>
-                                <input type="text" id="item" placeholder="Add a to-do">
+                                <i onclick ="addTodo()" class="fa fa-plus-circle"></i>
+                                <input type="text" id="input" placeholder="Add a to-do">
                             </div>
                         </div>
 <!-- end of to do list app -->
@@ -47,6 +48,6 @@
           <div class="inner">
               <p>&copy; Created by <a href="https://egasharfina.netlify.com">@egasharfina</a> 2019. All Rights Reserved.</p>
           </footer>
-
+          <script src="todo.js"></script>
 </body>
 </html>
